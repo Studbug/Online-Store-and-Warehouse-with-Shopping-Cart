@@ -26,6 +26,7 @@ public class Store {
             String product = scanner.nextLine();
             if (product.isEmpty()) {
                 break;
+                //Beginning of my code, all else in this class provided by MOOC.fi
             } else if (warehouse.products().contains(product)) {
                 if (warehouse.stock(product) <= 0) {
                     System.out.println("Out of stock.");
@@ -34,10 +35,7 @@ public class Store {
                     cart.add(product, warehouse.price(product));
                 }
             }
-
-            // Add code here that adds the product to the cart,
-            // If there is any in the warehouse, and reduces the stock in the warehouse
-            // Dont't touch any of the other code!
+                //End of my code
         }
 
         System.out.println("your shoppingcart contents:");

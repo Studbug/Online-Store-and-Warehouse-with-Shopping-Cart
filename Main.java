@@ -1,3 +1,4 @@
+//This main program provided by MOOC.fi to test this exercise
 
 import java.util.*;
 
